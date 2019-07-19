@@ -8,9 +8,10 @@
  "passwd": {
    "users": [
      {
-       "name": "chaloemphong",
+       "name": "core",
        "sshAuthorizedKeys": [
-           "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC//BwM9uMsddgpbSlAeDdEIMciS1C2VjAM6WgwfVIEg3xTmK77IgP1lWsKs8jP3jqGdj1Hg9FUZ2UocSUyIhwM9ZNpJgQeUo6il6ItWcgNXpwWfotFuI3dKhaVO8aOpDeDWMUQ8QCLB5jGKyGydDrEEqujwExjwtnEl9jxVcFrvhIMFDlpS5fiI31NB67gwcsqfqqmFMf9MOjRGqKrFvLnOk3T/PzwnmoahQtE/wOTbZu2s8WU8u61l6wDh/tp0Kh9uzrru4Uy71b+hrYLPCBlKhbAwTb1QstPx80YMK7pLaY7dKW4CVZ3U9XuU1HY/7lXSiNdfxet8jcqB9N+0yW7U4Kc/E+786anb5CIJUOZUDbsLijEY49Sc99cewzPEa10qTpnbIqHC6PL8kUkteyVmNLmQEz3R0CBMRIRojna4EmwUk0fsLktZGsd5+/X/9+vg5myjD3g8plhZzM2WCMn30ZoVduLrUjlW/Jc6f2jvfm/2knyQHqFWO0oJSoS9Ig1OO0noLEJiJkflc4w/GmDmSIFU7GrEu5R5RINXc6Go2C83GiDgtpXceiMGCYGVIbXlRi3Rbl/jdzq1qJYVL/y+rSbenfMFAZpOos58F120r3Mliw9/JO64Pf7Ds3Qtn/5WJOK8bZcT+ZIRXPamayu3yBt16yhFdrGUIfJM8QUTQ== chaloemphong.ccs55@ubru.ac.th"
+           "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDROmS6mfX4EjDSD606LJ/0pmsLoPBKlU6cbHvFAIRIUh/vxKj+QGjJbhxe7DLuOnsBSMtpTfI9SRIDXigI0hN46nSvCAoyr4Ap2qIrrwDpulO6jegH57Doc8O+BRyR4k1C/2CpLQwv3J3HUKhMNio9OCy0D3iLCytLFSpFUhs8g4a8CPmNpqdXzIONWjOxrRBE1wiPPWXtKbPLJ9m90Jvn7V1ZAM7RN4XLNd7zTqYidboZBgYauO5OR0vfJK9DLNz64NFHLp1O7Opei8uQtMZNhJrZrT/FX6YOpMva1SDErQepRxIGySV2P/QiDtcH0JVAJPqHzzVkhBGYSrhRS63D best@chaloemphongs-MacBook-Pro.local
+"
        ]
      }
    ]
