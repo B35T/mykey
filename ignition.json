@@ -8,9 +8,9 @@
  "passwd": {
    "users": [
      {
-       "name": "core",
+       "name": "chaloemphong.ccs55@ubru.ac.th",
        "sshAuthorizedKeys": [
-         "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCX/4dVp0rj9sdm+eNYX1VjWKcMYGZ1XRUROrrq4FteyZEo3+ketbiDF7H52IjuqCYfyYCCFENE/rDb9PGMmvdYB3PhfcboGMmPFiHqhRTxiiXyRPJPyESQECyK9nggU9aeB3EZEEyvnb4Ss8rux/R3eqaxDEe88WBxp3T/IK5rFJ9mS2NwjtDIBygTjNiBxmBqZVgyfxDhdz/xiOsXW/fxDw48z3mewfGw9jxMj+/Fc0skVAfuogHbB+hKHgupg6sCQ0GQrSi4H9UXopXOFpMPuKAYUF8RU/jSAOuIU+YLaTAgvi8Ux+TGk2cavk1807KHq9DTJUBxxLtq5yc9U7ov"
+           "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC//BwM9uMsddgpbSlAeDdEIMciS1C2VjAM6WgwfVIEg3xTmK77IgP1lWsKs8jP3jqGdj1Hg9FUZ2UocSUyIhwM9ZNpJgQeUo6il6ItWcgNXpwWfotFuI3dKhaVO8aOpDeDWMUQ8QCLB5jGKyGydDrEEqujwExjwtnEl9jxVcFrvhIMFDlpS5fiI31NB67gwcsqfqqmFMf9MOjRGqKrFvLnOk3T/PzwnmoahQtE/wOTbZu2s8WU8u61l6wDh/tp0Kh9uzrru4Uy71b+hrYLPCBlKhbAwTb1QstPx80YMK7pLaY7dKW4CVZ3U9XuU1HY/7lXSiNdfxet8jcqB9N+0yW7U4Kc/E+786anb5CIJUOZUDbsLijEY49Sc99cewzPEa10qTpnbIqHC6PL8kUkteyVmNLmQEz3R0CBMRIRojna4EmwUk0fsLktZGsd5+/X/9+vg5myjD3g8plhZzM2WCMn30ZoVduLrUjlW/Jc6f2jvfm/2knyQHqFWO0oJSoS9Ig1OO0noLEJiJkflc4w/GmDmSIFU7GrEu5R5RINXc6Go2C83GiDgtpXceiMGCYGVIbXlRi3Rbl/jdzq1qJYVL/y+rSbenfMFAZpOos58F120r3Mliw9/JO64Pf7Ds3Qtn/5WJOK8bZcT+ZIRXPamayu3yBt16yhFdrGUIfJM8QUTQ== chaloemphong.ccs55@ubru.ac.th"
        ]
      }
    ]
