@@ -1,21 +1,25 @@
 {
- "ignition": {
-   "config": {},
-   "timeouts": {},
-   "version": "2.1.0"
- },
- "networkd": {},
- "passwd": {
-   "users": [
-     {
-       "name": "core",
-       "sshAuthorizedKeys": [
-           "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDROmS6mfX4EjDSD606LJ/0pmsLoPBKlU6cbHvFAIRIUh/vxKj+QGjJbhxe7DLuOnsBSMtpTfI9SRIDXigI0hN46nSvCAoyr4Ap2qIrrwDpulO6jegH57Doc8O+BRyR4k1C/2CpLQwv3J3HUKhMNio9OCy0D3iLCytLFSpFUhs8g4a8CPmNpqdXzIONWjOxrRBE1wiPPWXtKbPLJ9m90Jvn7V1ZAM7RN4XLNd7zTqYidboZBgYauO5OR0vfJK9DLNz64NFHLp1O7Opei8uQtMZNhJrZrT/FX6YOpMva1SDErQepRxIGySV2P/QiDtcH0JVAJPqHzzVkhBGYSrhRS63D best@chaloemphongs-MacBook-Pro.local
-"
-       ]
-     }
-   ]
- },
- "storage": {},
- "systemd": {}
+    "ignition": {
+        "config": {},
+        "timeouts": {},
+        "version": "2.1.0"
+    },
+    "networkd": {},
+    "passwd": {
+        "users": [
+            {
+                "groups": [
+                    "sudo",
+                    "docker"
+                ],
+                "name": "server",
+                "passwordHash": "$1$xe8P8N70$P3VQrp.F61VF06c.xxumk1",
+                "sshAuthorizedKeys": [
+                    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDz9+d/rDGqAUkVRTwH/p0wlgpVQZT302GG8XvU40oc8JrLjIN52Q0U6qHADSR/JdM3wNxctxyQkYDTScn9h8Cds+FYMXZ27CV79ZK1uNPA4UgmvLOl9nTj6ZLHj7pzHrBsgjyhC/9AA7D/r/7e1gF75V3N7VgdZoWIX7YXErmgzdyB1njP8SJvN92Ow5w9LWt36h8wSYN+/RmKqeqn0fn+21G4gZq3i/JYTaPlbTkwSKpRbVShASFWdSVZhJNllOypJiyopP2KhHossURpHw7FpDaCBpQrKaTMQOYJPB08XnK3gGq7AF+rVNMf70V8O3NEWKoMPdva5qakYLvqEyScE2O4Ihuj6gtkg6ma06CD0z23m75no6jPOp3LxFcWNI0mnYs77fjwvfdd1wLy5oSOssrXjVV7avq7rzRuQvtKT8LPXTGADF1GFI5zvmk+bGO9yxX/hGh2cGabaSWlhAtovh4b1Ed6GE9CBplPuPPy5rKK6oPPsYtQYIcCjC2+ycMPchXi9aUGICKlArnOIXm1Xdg4L2qApnVrQnqIr1Uvpg7bmHq5lgazSmWk8cqUDuZcsoFDMPrVH2/Ud59UGW5Ajbvqy/x4WJHsEvq8AsAqdv1nkGbEuGtpmoqS3si3CE6UlhZmRq1eGsetuAsriy3L6aquq3GM0mfhs02cc5D76w== server"
+                ]
+            }
+        ]
+    },
+    "storage": {},
+    "systemd": {}
 }
