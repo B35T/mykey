@@ -7,8 +7,8 @@ cd mykey
 
 sudo coreos-install -d /dev/sda -C stable -i ~/ignition.json
 
-install PostgreSQL
-**option 1**
+install PostgreSQL \
+**option 1** \
 docker pull postgres:tag
 docker run -d --name=myposgresDB --config my-config.yml postgres:tag
 
