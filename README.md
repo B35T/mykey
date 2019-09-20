@@ -15,7 +15,7 @@ docker run -d --name=myposgresDB --config my-config.yml postgres:tag
 in my-config.yml \
 POSTGRES_DB=myappdb \
 POSTGRES_USER=admin \
-POSTGRES_PASSWORD=pleasechangeme \
+POSTGRES_PASSWORD=pleasechangeme 
 
 **option 2**
 docker run -d --name=myposgresDB -e POSTGRES_DB=mydatabase -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=secret --restart=always postgres:tag
