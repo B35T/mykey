@@ -4,9 +4,9 @@
 
 echo 'install prometheus and add config'
 
-docker run -d --name=prometheus -p 9090:9090 -v /docker/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
+docker run -d --name=prometheus -p 9090:9090 -v /etc/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
 
-sudo cp prometheus.yml /docker/prometheus
+sudo cp prometheus.yml /ect/prometheus
 
 docker restart prometheus
 
