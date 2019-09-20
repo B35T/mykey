@@ -30,3 +30,19 @@ docker run -d --name=myposgresDB -e POSTGRES_DB=mydatabase -e POSTGRES_USER=admi
 ```
 docker run --name mongodb -v /docker/data/db:/data/db -p 22017:27017 -d mongo:tag --auth
 ```
+
+***สร้าง user สำหรับ login database***
+เนื่องจากเรายังไม่มี user บน db เลย เราจึงต้องสร้าง user คนแรกขึ้นมาก่อน (ไม่งั้นจะเปิด auth เพื่อ?) โดย connect เข้าไปที่ mongo shell ของ container ด้วยคำสั่ง
+```
+docker exec -it mongodb mongo admin
+```
+จากนั้นก็สร้าง user ด้วย mongo shell
+```
+db.createUser({
+  user: "admin", 
+  pwd: "secure", 
+  roles: [ { role: "root", db: "admin" } ]
+})
+```
+test
+```show dbs``` = ```error successful```
