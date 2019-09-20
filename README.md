@@ -28,7 +28,7 @@ docker run -d --name=myposgresDB -e POSTGRES_DB=mydatabase -e POSTGRES_USER=admi
 
 ***install mongodb***
 ```
-docker run --name mongodb -v /docker/data/db:/data/db -p 22017:27017 -d mongo:tag --auth
+docker run  -d --name mongodb -v /docker/data/db:/data/db -p 22017:27017 --restart=always mongo:tag --auth
 ```
 
 ***สร้าง user สำหรับ login database***
