@@ -18,6 +18,4 @@ POSTGRES_USER=admin \
 POSTGRES_PASSWORD=pleasechangeme \
 
 **option 2**
-docker run -d --name=myposgresDB -e POSTGRES_DB=mydatabase -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=secret \\
---restart=always \\
-postgres:tag
+docker run -d --name=myposgresDB -e POSTGRES_DB=mydatabase -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=secret --restart=always postgres:tag
