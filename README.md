@@ -54,7 +54,7 @@ docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v porta
 ```
 ***install konga***
 ```
-docker run —p 1337:1337 -d —network=kong-net \
+docker run -p 1337:1337 -d --network=kong-net \
  --name konga -e “NODE_ENV=production" \
  -e “TOKEN_SECRET={{somerandomstring}}" \
  pantsel/konga
