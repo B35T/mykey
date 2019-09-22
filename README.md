@@ -60,11 +60,10 @@ docker run -p 1337:1337 -d --network=kong-net \
  pantsel/konga
 ```
 
-***install prometheus monitoring docker
+***install prometheus monitoring docker***
 ```
 docker run -d -p 9090:9090 \
 -v /etc/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml \
---publish published=9090,target=9090,protocol=tcp \
 prom/prometheus
 ```
 
